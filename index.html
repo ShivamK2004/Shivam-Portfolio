@@ -1,76 +1,121 @@
+```html
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Shivam Kumar — AI/ML Engineer</title>
+
     <meta
       name="description"
       content="Portfolio of Shivam Kumar: LLM agents, generative AI, computer vision, machine learning and full-stack projects."
     />
+
+    <meta name="author" content="Shivam Kumar" />
+    <meta name="theme-color" content="#0b0d12" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
     <header class="nav">
       <a class="logo" href="#top">Shivam Kumar</a>
+
       <nav>
-        <a href="#about">About</a><a href="#interests">Research</a
-        ><a href="#skills">Skills</a><a href="#featured">Projects</a
-        ><a href="#education">Education</a><a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="#interests">Research</a>
+        <a href="#skills">Skills</a>
+        <a href="#featured">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main id="top">
+
+      <!-- HERO SECTION -->
       <section class="hero">
         <div class="hero-text">
-          <p class="kicker">AI / ML engineer · LLM systems · computer vision</p>
+          <p class="kicker">
+            AI / ML engineer · LLM systems · computer vision
+          </p>
+
           <h1>I build AI systems you can inspect, test and trust.</h1>
+
           <p class="lead">
             14 projects across LLM agents, generative AI, face recognition,
             forecasting and full-stack apps — each one listed with what it does,
             what it measured, and what it doesn’t claim.
           </p>
+
           <div class="cta">
             <a
               class="btn primary"
               href="https://agent-harness-pro.vercel.app/"
               target="_blank"
-              rel="noopener"
-              >Open live demo</a
+              rel="noopener noreferrer"
             >
-            <a class="btn" href="#projects">Browse projects</a>
+              Open live demo
+            </a>
+
+            <a class="btn" href="#projects">
+              Browse projects
+            </a>
           </div>
         </div>
+
         <div
           class="trace"
           aria-label="Agent Harness Pro pipeline: Planner, Researcher, Executor, Verifier"
         >
           <div class="trace-head">
-            <span></span><span></span><span></span
-            ><b>agent-harness-pro / run</b>
+            <span></span>
+            <span></span>
+            <span></span>
+            <b>agent-harness-pro / run</b>
           </div>
+
           <ol id="steps">
-            <li><strong>Planner</strong><em>Breaks the task into steps</em></li>
             <li>
-              <strong>Researcher</strong><em>Pulls cited local sources</em>
+              <strong>Planner</strong>
+              <em>Breaks the task into steps</em>
             </li>
-            <li><strong>Executor</strong><em>Calls allow-listed tools</em></li>
+
             <li>
-              <strong>Verifier</strong
-              ><em>Scores the answer, logs the trace</em>
+              <strong>Researcher</strong>
+              <em>Pulls cited local sources</em>
+            </li>
+
+            <li>
+              <strong>Executor</strong>
+              <em>Calls allow-listed tools</em>
+            </li>
+
+            <li>
+              <strong>Verifier</strong>
+              <em>Scores the answer, logs the trace</em>
             </li>
           </ol>
         </div>
       </section>
 
+      <!-- ABOUT SECTION -->
       <section id="about" class="block about">
         <h2>About me</h2>
+
         <div class="two">
           <div>
             <p>
@@ -79,6 +124,7 @@
               about Artificial Intelligence, Machine Learning and Software
               Engineering.
             </p>
+
             <p>
               I enjoy turning ideas into practical applications and building
               intelligent systems. My work spans LLM-powered applications,
@@ -86,13 +132,16 @@
               predictive modelling: agent evaluation frameworks, AI chat apps,
               face-recognition systems and commodity price forecasting.
             </p>
+
             <p>
               I learn by building, trying different approaches and understanding
               the engineering behind intelligent systems.
             </p>
           </div>
+
           <aside class="focus">
             <h3>Currently focused on</h3>
+
             <ul>
               <li>Building reliable AI agents</li>
               <li>Exploring advanced deep learning architectures</li>
@@ -102,8 +151,10 @@
         </div>
       </section>
 
+      <!-- RESEARCH INTERESTS -->
       <section id="interests" class="block">
         <h2>Research interests</h2>
+
         <dl class="interests">
           <div>
             <dt>LLMs and AI agents</dt>
@@ -112,12 +163,14 @@
               and LLM evaluation.
             </dd>
           </div>
+
           <div>
             <dt>Deep learning</dt>
             <dd>
               Transformer architectures, LSTM networks and attention mechanisms.
             </dd>
           </div>
+
           <div>
             <dt>Computer vision</dt>
             <dd>
@@ -125,6 +178,7 @@
               video understanding.
             </dd>
           </div>
+
           <div>
             <dt>Machine learning and predictive analytics</dt>
             <dd>
@@ -132,6 +186,7 @@
               engineering and model optimization.
             </dd>
           </div>
+
           <div>
             <dt>Explainable and trustworthy AI</dt>
             <dd>
@@ -139,84 +194,110 @@
               understanding AI decisions.
             </dd>
           </div>
+
           <div>
             <dt>Generative AI</dt>
-            <dd>Retrieval-augmented generation (RAG) and AI assistants.</dd>
+            <dd>
+              Retrieval-augmented generation (RAG) and AI assistants.
+            </dd>
           </div>
         </dl>
       </section>
 
+      <!-- SKILLS -->
       <section id="skills" class="block">
         <h2>Skills</h2>
         <div class="skills" id="skillGrid"></div>
       </section>
 
+      <!-- FEATURED PROJECTS -->
       <section id="featured" class="block">
         <h2>Featured projects</h2>
         <div class="feat" id="featGrid"></div>
       </section>
 
+      <!-- ALL PROJECTS -->
       <section id="projects" class="block">
         <h2>All projects</h2>
+
         <div class="filters" id="filters" role="tablist"></div>
+
         <div class="grid" id="grid"></div>
       </section>
 
+      <!-- EDUCATION AND ACHIEVEMENTS -->
       <section id="education" class="block">
         <h2>Education and achievements</h2>
+
         <article class="edu">
           <h3>
             Indian Institute of Information Technology Vadodara (IIIT Vadodara)
           </h3>
+
           <p>
             Bachelor of Technology (B.Tech), Computer Science and Engineering ·
             India
           </p>
         </article>
+
         <!-- Add graduation year, CGPA, certifications and hackathons here when you want to show them. -->
+
         <h3 class="sub">Selected technical results</h3>
+
         <div class="stats" aria-label="Reported results">
           <div>
-            <b>85.95%</b
-            ><span
-              >Shoplifting frame classifier, up from 48.65% pretrained</span
-            >
+            <b>85.95%</b>
+            <span>
+              Shoplifting frame classifier, up from 48.65% pretrained
+            </span>
           </div>
+
           <div>
-            <b>87.3%</b><span>Forest cover type accuracy, 7 classes</span>
+            <b>87.3%</b>
+            <span>Forest cover type accuracy, 7 classes</span>
           </div>
+
           <div>
-            <b>R² 0.91</b
-            ><span
-              >Attention LSTM, India commodity study (normalized data)</span
-            >
+            <b>R² 0.91</b>
+            <span>
+              Attention LSTM, India commodity study (normalized data)
+            </span>
           </div>
+
           <div>
-            <b>72.5%</b
-            ><span
-              >Task success in the agent-evaluation snapshot (40 records, 2
-              agents)</span
-            >
+            <b>72.5%</b>
+            <span>
+              Task success in the agent-evaluation snapshot (40 records, 2 agents)
+            </span>
           </div>
         </div>
+
         <p class="fine">
           Reported project results, not formal academic awards. Each figure
           belongs to its own dataset and setup.
         </p>
+
+        <!-- INTERNSHIPS -->
         <h3 class="sub">Internships</h3>
+
         <div class="exp">
           <article>
             <time>2026</time>
+
             <h3>Summer Research Intern, IIIT Vadodara</h3>
+
             <p>
               Built an LLM-agent evaluation harness: task generation, sandboxed
               execution, run logging, TF-IDF/cosine scoring, heuristic
               hallucination checks and a Streamlit dashboard.
             </p>
           </article>
+
           <article>
             <time>Jun – Sep 2025</time>
+
             <h3>Machine Learning Intern, Unified Mentor Pvt. Ltd.</h3>
+
             <p>
               Worked on fraud detection, disease prediction and commodity-price
               forecasting: missing values, feature engineering, scaling, SMOTE,
@@ -226,49 +307,71 @@
         </div>
       </section>
 
+      <!-- CONTACT -->
       <section id="contact" class="block contact">
         <h2>Let’s build something meaningful</h2>
+
         <p>
           I’m always interested in exploring new ideas, collaborating on
           challenging projects and building technology that makes a difference.
           Whether it’s AI, machine learning, software engineering or research,
           I’d like to hear from people who enjoy building and learning.
         </p>
+
         <p>
-          <strong
-            >Have an interesting idea or opportunity? Let’s connect.</strong
-          >
+          <strong>
+            Have an interesting idea or opportunity? Let’s connect.
+          </strong>
         </p>
+
         <div class="cta">
           <a
             class="btn primary"
             href="https://github.com/ShivamK2004"
             target="_blank"
-            rel="noopener"
-            >GitHub (ShivamK2004)</a
+            rel="noopener noreferrer"
           >
+            GitHub (ShivamK2004)
+          </a>
+
           <a
             class="btn"
             href="https://github.com/shivamkumar130"
             target="_blank"
-            rel="noopener"
-            >GitHub (shivamkumar130)</a
+            rel="noopener noreferrer"
           >
+            GitHub (shivamkumar130)
+          </a>
+
           <a
             class="btn"
             href="https://www.linkedin.com/in/shivam-kumar-879868290/"
             target="_blank"
-            rel="noopener"
-            >LinkedIn</a
+            rel="noopener noreferrer"
           >
-          <a class="btn" href="mailto:shivamkumar54144@gmail.com">Email</a>
+            LinkedIn
+          </a>
+
+          <a
+            class="btn"
+            href="mailto:shivamkumar54144@gmail.com"
+          >
+            Email
+          </a>
         </div>
       </section>
+
     </main>
+
+    <!-- FOOTER -->
     <footer>
       Designed &amp; built by <strong>Shivam Kumar</strong> — AI/ML · Software
       Engineering · Research
     </footer>
-    <script src="script.js"></script>
+
+    <!-- MAIN JAVASCRIPT -->
+    <script src="./script.js" defer></script>
+
   </body>
 </html>
+```
