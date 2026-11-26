@@ -88,7 +88,7 @@ const P = [
     d: "Developed a retail management system with POS billing, inventory tracking, sales analytics, invoice generation, refunds and AI-assisted business insights.",
     k: ["Python", "Tkinter", "FastAPI", "SQLite", "Pandas", "REST API"],
     n: "Features role-based access, Excel/CSV import, PDF invoices, stock alerts, audit logs and automated database backups.",
-    g: "ShivamK2004/Retail-Wizard",
+    g: G + "ShivamK2004/Retail-Wizard",
     l: "https://retail-wizard-web-free.onrender.com/setup"
   },
   {
