@@ -85,9 +85,8 @@ const P = [
     t: "Retail Wizard — Smart Retail Management System",
     c: "app",
     s: "Python Desktop & Web Application",
-    d: "Developed a retail management system with POS billing, inventory tracking, sales analytics, invoice generation, refunds and AI-assisted business insights.",
-    k: ["Python", "Tkinter", "FastAPI", "SQLite", "Pandas", "REST API"],
-    n: "Features role-based access, Excel/CSV import, PDF invoices, stock alerts, audit logs and automated database backups.",
+    d: "Retail management platform with POS billing, inventory tracking, sales analytics, PDF invoices, refunds and AI-assisted business insights.",
+    k: ["Python", "Tkinter", "FastAPI", "SQLite", "Pandas"],
     g: "https://github.com/ShivamK2004/Retail-Wizard",
     l: "https://retail-wizard-web-free.onrender.com/setup"
   },
